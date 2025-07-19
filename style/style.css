@@ -51,10 +51,12 @@
 .in_brand { 
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #C0CCDA;
     max-width: 1110px;
     margin: 70px auto;
     padding: 36px 60px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6), rgba(192, 204, 218, 0.1));
+    border-image-slice: 1;
 }
 
 /* Popular collection section style here ... */
